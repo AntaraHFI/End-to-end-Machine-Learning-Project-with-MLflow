@@ -102,8 +102,7 @@ class ConfigurationManager:
             all_params=params,
             metric_file_name = config.metric_file_name,
             target_column = schema.name,
-            mlflow_uri="https://dagshub.com/AntaraHFI/End-to-end-Machine-Learning-Project-with-MLflow.mlflow",
-           
+            mlflow_uri="https://dagshub.com/AntaraHFI/End-to-end-Machine-Learning-Project-with-MLflow.mlflow",          
         )
 
         return model_evaluation_config

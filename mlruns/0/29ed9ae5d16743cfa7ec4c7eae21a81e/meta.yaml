@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/antar/Downloads/End-to-end-Machine-Learning-Project-with-MLflow/End-to-end-Machine-Learning-Project-with-MLflow/mlruns/0/29ed9ae5d16743cfa7ec4c7eae21a81e/artifacts
+end_time: 1749472810518
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 29ed9ae5d16743cfa7ec4c7eae21a81e
+run_name: capricious-seal-352
+run_uuid: 29ed9ae5d16743cfa7ec4c7eae21a81e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749472801691
+status: 3
+tags: []
+user_id: antar

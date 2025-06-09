@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/antar/Downloads/End-to-end-Machine-Learning-Project-with-MLflow/End-to-end-Machine-Learning-Project-with-MLflow/mlruns/0/4791e125a0f34aedba94d3733049a2e4/artifacts
+end_time: 1749484115640
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4791e125a0f34aedba94d3733049a2e4
+run_name: funny-mule-623
+run_uuid: 4791e125a0f34aedba94d3733049a2e4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749484104362
+status: 3
+tags: []
+user_id: antar

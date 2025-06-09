@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/antar/Downloads/End-to-end-Machine-Learning-Project-with-MLflow/End-to-end-Machine-Learning-Project-with-MLflow/mlruns/0/ca3870ce08a146b88b8db598b089d617/artifacts
+end_time: 1749473917432
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ca3870ce08a146b88b8db598b089d617
+run_name: gentle-pug-954
+run_uuid: ca3870ce08a146b88b8db598b089d617
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749473909625
+status: 3
+tags: []
+user_id: antar
