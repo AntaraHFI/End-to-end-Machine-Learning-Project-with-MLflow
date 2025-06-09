@@ -10,9 +10,14 @@ from src.mlProject.entity.config_entity import ModelEvaluationConfig
 from src.mlProject.utils.common import save_json
 from pathlib import Path
 from mlProject import logger
+import dagshub
 
 
 class ModelEvaluation:
+    
+    dagshub.init(repo_owner='AntaraHFI', repo_name='End-to-end-Machine-Learning-Project-with-MLflow', mlflow=True)
+    mlflow.set_tracking_uri("https://dagshub.com/AntaraHFI/End-to-end-Machine-Learning-Project-with-MLflow.mlflow")
+
     def __init__(self, config: ModelEvaluationConfig):
         self.config = config
 
@@ -33,13 +38,14 @@ class ModelEvaluation:
         test_x = test_data.drop([self.config.target_column], axis=1)
         test_y = test_data[[self.config.target_column]]
         
+        logger.info(f">>>>>>>>>>>>>  mlflow url  >>>>>>>>..{self.config.mlflow_uri}>>>>>>>>>>>")
 
 
         mlflow.set_registry_uri(self.config.mlflow_uri)
         tracking_url_type_store = urlparse(mlflow.get_tracking_uri()).scheme
         
         with mlflow.start_run():
-            
+
             predicted_qualities = model.predict(test_x)
 
             (rmse, mae, r2) = self.eval_metrics(test_y, predicted_qualities)
