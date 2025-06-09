@@ -1,10 +1,10 @@
 import os
 import urllib.request as request
 import zipfile
-from mlProject import logger
-from mlProject.utils.common import get_size
+from src.mlProject import logger
+from src.mlProject.utils.common import get_size
 from pathlib import Path
-from mlProject.entity.config_entity import (DataIngestionConfig)
+from src.mlProject.entity.config_entity import (DataIngestionConfig)
 
 
 class DataIngestion:
@@ -35,4 +35,3 @@ class DataIngestion:
         os.makedirs(unzip_path, exist_ok=True)
         with zipfile.ZipFile(self.config.local_data_file, 'r') as zip_ref:
             zip_ref.extractall(unzip_path)
-  

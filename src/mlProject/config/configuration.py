@@ -1,6 +1,6 @@
-from mlProject.constants import *
-from mlProject.utils.common import read_yaml, create_directories
-from mlProject.entity.config_entity import (DataIngestionConfig,
+from src.mlProject.constants import *
+from src.mlProject.utils.common import read_yaml, create_directories
+from src.mlProject.entity.config_entity import (DataIngestionConfig,
                                             DataValidationConfig,
                                             DataTransformationConfig,
                                             ModelTrainerConfig,
@@ -52,7 +52,6 @@ class ConfigurationManager:
         return data_validation_config
     
 
-
     def get_data_transformation_config(self) -> DataTransformationConfig:
         config = self.config.data_transformation
 
@@ -64,7 +63,7 @@ class ConfigurationManager:
         )
 
         return data_transformation_config
-    
+
 
 
     def get_model_trainer_config(self) -> ModelTrainerConfig:
@@ -103,7 +102,7 @@ class ConfigurationManager:
             all_params=params,
             metric_file_name = config.metric_file_name,
             target_column = schema.name,
-            mlflow_uri="https://dagshub.com/entbappy/End-to-end-Machine-Learning-Project-with-MLflow.mlflow",
+            mlflow_uri="https://dagshub.com/AntaraHFI/End-to-end-Machine-Learning-Project-with-MLflow.mlflow",
            
         )
 

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/antar/Downloads/End-to-end-Machine-Learning-Project-with-MLflow/End-to-end-Machine-Learning-Project-with-MLflow/mlruns/0/a97b361e96194d8db91ed3c9b0197f35/artifacts
+end_time: 1749471674362
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a97b361e96194d8db91ed3c9b0197f35
+run_name: tasteful-goat-426
+run_uuid: a97b361e96194d8db91ed3c9b0197f35
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749471663425
+status: 3
+tags: []
+user_id: antar
