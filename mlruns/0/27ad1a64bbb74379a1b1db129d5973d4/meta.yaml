@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/antar/Downloads/End-to-end-Machine-Learning-Project-with-MLflow/End-to-end-Machine-Learning-Project-with-MLflow/mlruns/0/27ad1a64bbb74379a1b1db129d5973d4/artifacts
+end_time: 1749623880175
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 27ad1a64bbb74379a1b1db129d5973d4
+run_name: worried-bee-711
+run_uuid: 27ad1a64bbb74379a1b1db129d5973d4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749623864785
+status: 3
+tags: []
+user_id: antar

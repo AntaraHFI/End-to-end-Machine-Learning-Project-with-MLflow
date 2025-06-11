@@ -15,8 +15,8 @@ import dagshub
 
 class ModelEvaluation:
     
-    dagshub.init(repo_owner='AntaraHFI', repo_name='End-to-end-Machine-Learning-Project-with-MLflow', mlflow=True)
-    mlflow.set_tracking_uri("https://dagshub.com/AntaraHFI/End-to-end-Machine-Learning-Project-with-MLflow.mlflow")
+    # dagshub.init(repo_owner='AntaraHFI', repo_name='End-to-end-Machine-Learning-Project-with-MLflow', mlflow=True)
+    # mlflow.set_tracking_uri("https://dagshub.com/AntaraHFI/End-to-end-Machine-Learning-Project-with-MLflow.mlflow")
 
     def __init__(self, config: ModelEvaluationConfig):
         self.config = config
