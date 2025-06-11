@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/antar/Downloads/End-to-end-Machine-Learning-Project-with-MLflow/End-to-end-Machine-Learning-Project-with-MLflow/mlruns/0/c87ba0dc14c8465592dcd000cf5e1d9d/artifacts
+end_time: 1749634588863
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c87ba0dc14c8465592dcd000cf5e1d9d
+run_name: gregarious-cow-941
+run_uuid: c87ba0dc14c8465592dcd000cf5e1d9d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749634583436
+status: 3
+tags: []
+user_id: antar
